@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  background-color: #222629;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.title {
+  font-size: 3em;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.main {
+  display: grid;
+  grid-template-rows: 80vh;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.login,
+.search {
+  padding: 20px;
+}
+
+/* form */
+input,
+select {
+
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  display: block;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+  border-radius: 50px;
+  background-color: #474b4f;
+  color: white;
+  border: none;
+  font-size: 100%;
+  letter-spacing: 0.2em;
+}
+
+input[type="submit"] {
+  border-radius: 50px;
+  background-color: #9cc2ff;
+  color: #0D6EFD;
+  border: none;
+  transition: transform ease-in 0.4s, all 0.4s;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover {
+  background-color: #0D6EFD;
+  color: white;
+  box-shadow: 0 10px 35px 10px rgba(13,110,253,0.3);
+}
+
+fieldset {
+  color: white;
+  font-size: 20px;
+  border-radius: 20px;
+  border-width: 3.5px;
+  border-style: solid;
+}
